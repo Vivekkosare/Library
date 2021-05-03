@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Library.Core.Models
 {
-    class Reader
+    public class Reader
     {
         public int Id { get; set; }
         public string Name { get; set; }
