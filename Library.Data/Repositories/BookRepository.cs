@@ -36,9 +36,9 @@ namespace Library.Data.Repositories
             return book;
         }
 
-        public Task<Book> GetAll()
+        public IEnumerable<Book> GetAll()
         {
-            throw new NotImplementedException();
+            return _context.Books;
         }
 
         public Task<Book> Update(int id, Book book)

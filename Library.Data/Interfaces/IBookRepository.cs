@@ -8,7 +8,7 @@ namespace Library.Data.Interfaces
 {
     public interface IBookRepository
     {
-        Task<Book> GetAll();
+        IEnumerable<Book> GetAll();
         Task<Book> Get(int id);
         void Create(Book book);
         Task<Book> Update(int id, Book book);

@@ -21,6 +21,6 @@ namespace Library.Data.DBContexts
         //    modelBuilder.Entity<Reader>().HasData(new Reader { Id = 1, Name = "John Doe", BookId = 1 });
         //    base.OnModelCreating(modelBuilder);
         //}
-        protected override void OnConfiguring(DbContextOptionsBuilder options) => options.UseSqlite("Data Source=sqlitedemo.db");
+        protected override void OnConfiguring(DbContextOptionsBuilder options) => options.UseSqlite("Data Source=C:\\sqlitedemo.db");
     }
 }
